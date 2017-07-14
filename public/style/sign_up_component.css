@@ -1,0 +1,44 @@
+.sign-up-wrap h1,
+.sign-up-wrap h4,
+.sign-up-wrap p {
+    text-align: center;
+}
+
+.sign-up-wrap {
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sign-up-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-flex-row {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .sign-up-wrap {
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .sign-up-flex-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sign-up-wrap h1,
+    .sign-up-wrap h4,
+    .sign-up-wrap p {
+        text-align: left;
+    }
+
+
+
+}

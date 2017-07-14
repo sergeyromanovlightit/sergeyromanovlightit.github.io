@@ -1,0 +1,36 @@
+.modal-description,
+.modal-title {
+    font-family: "Raleway-Bold";
+    color: black;
+    text-align: center;
+}
+
+.modal-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.delete-btn-flex-row {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.delete-btn-flex-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+    .delete-btn-flex-item:nth-child(2) {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .delete-btn-flex-row {
+        flex-direction: row;
+    }
+}

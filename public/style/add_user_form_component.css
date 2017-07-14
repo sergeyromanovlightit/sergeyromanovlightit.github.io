@@ -1,0 +1,31 @@
+.add-user-form-flex-row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.add-user-form-flex-item {
+    flex: 1 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .add-user-form-flex-item:nth-child(2) {
+        padding-left: 0.5em;
+    }
+
+    .add-user-form {
+        max-width: 525px;
+    }
+
+    .add-user-form-flex-item {
+        width: auto;
+    }
+
+    .add-user-form-flex-item:nth-child(3) {
+        width: 100%;
+    }
+}

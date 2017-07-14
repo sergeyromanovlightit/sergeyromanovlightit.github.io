@@ -1,0 +1,122 @@
+.row-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    padding-left: 15px;
+}
+
+.flex-item:first-child {
+    padding-left: 0;
+}
+
+.flex-item:last-child {
+    padding-right: 0;
+}
+
+.add-user {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.add-user:focus, .add-user:hover {
+    text-decoration: none;
+    color: rgb(191, 214, 62);
+}
+
+.add-user-submit {
+    float: right;
+    list-style: none;
+}
+
+.users-tabs-list {
+    color: black;
+}
+
+.users-tabs-list .users-tabs-list-headers {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.users-tabs-list-body {
+    background-color: white;
+}
+
+.users-tabs-list-headers .specific-tab {
+    text-align: center;
+    background-color: rgb(240, 240, 6);
+}
+
+.specific-tab:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.users-table-roles {
+    background-color: white;
+    min-width: 1140px;
+}
+
+.users-tabs-list-headers .react-tabs__tab--selected {
+    border-radius: 0;
+    background-color: white;
+}
+
+.users-tabs-list .users-table-roles th {
+    color: rgb(133, 7, 122);
+}
+
+.users-table-roles a {
+    color: black;
+    text-decoration: none;
+}
+
+.users-table-roles a:hover {
+    color: rgb(133, 7, 122);
+    text-decoration: none;
+}
+
+.icon-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.user-status-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tabs-list-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-list-flex-item {
+    flex: 1 0 auto;
+}
+
+.add-user-submit {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .users-tabs-list .users-table-roles th,
+    .users-tabs-list .users-table-roles td {
+        padding: 2em;
+    }
+
+    .add-user-submit {
+        justify-content: flex-end;
+    }
+
+    .users-tabs-list-headers .specific-tab {
+        padding: 10px 20px;
+    }
+}

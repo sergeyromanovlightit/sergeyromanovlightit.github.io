@@ -1,0 +1,9 @@
+.account-details-wrap h1,
+.account-details-wrap h2,
+.account-details-wrap p {
+    text-align: center;
+}
+
+.account-details-wrap {
+    padding-bottom: 2em;
+}

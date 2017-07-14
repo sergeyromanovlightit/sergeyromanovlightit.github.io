@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+html,
+body,
+.main,
+.main .general-wrapper {
+    height: 100%;
+}
+
+
+body {
+    font-family: "Raleway-Regular";
+    background-image: url(../images/bg.png);
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-kudzoo:active:hover,
+.btn-kudzoo {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 3px;
+    outline: rgb(133, 7, 122);
+    border-color: rgb(133, 7, 122);
+    background-color: rgb(133, 7, 122);
+    font-family: "Raleway-Bold";
+}
+.btn-kudzoo:active:hover,
+.btn-kudzoo:active {
+    outline: white;
+    background-color: white;
+    color: rgb(133, 7, 122);
+}
+
+.btn-kudzoo-cancel:active:hover,
+.btn-kudzoo-cancel {
+    border: 1px solid rgb(133, 7, 122);
+    color: rgb(133, 7, 122);
+    background-color: white;
+}
+
+.btn-kudzoo-cancel:active:hover,
+.btn-kudzoo-cancel:active {
+    outline: rgb(133, 7, 122);
+    background-color: rgb(133, 7, 122);
+    color: white;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.react-tabs {
+    overflow-x: auto;
+}
+
+
+.bold-header {
+    font-family: "Raleway-Bold";
+}
+.regular-header {
+    font-family: "Raleway-Regular";
+}
+
+@media screen and (min-width: 768px) {
+    .vertical-align {
+        flex-direction: row;
+    }
+
+    /*Fixed this*/
+
+    .container {
+        padding-top: 167px;
+    }
+
+    /*Fixed this*/
+}
+
+@media screen and (min-width: 1034px) {
+    .container {
+        padding-top: 107px;
+    }
+}

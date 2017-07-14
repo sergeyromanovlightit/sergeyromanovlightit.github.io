@@ -1,0 +1,53 @@
+.sign-up-form-flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-form-flex-item:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-form-flex-item button {
+    width: 100%;
+}
+
+.fields-flex-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fields-flex-item input {
+    min-width: 300px;
+}
+
+.sign-up-form-flex-item button {
+    max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .sign-up-form-flex-item button {
+        width: auto;
+    }
+
+    .sign-up-flex-row input {
+        width: auto;
+        min-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sign-up-form-flex-item:last-child {
+        justify-content: flex-start;
+    }
+
+    .fields-flex-row {
+        align-items: flex-start;
+    }
+
+    .sign-up-form-flex-item button {
+        width: 100%;
+        max-width: 100%;
+    }
+}

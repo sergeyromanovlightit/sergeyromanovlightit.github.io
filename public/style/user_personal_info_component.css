@@ -1,0 +1,35 @@
+.avatar {
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.cash-available {
+    color: rgb(133, 7, 122);
+}
+
+.personal-wrap {
+    margin-top: 2em;
+}
+
+.personal-wrap h1,
+.personal-wrap h3,
+.personal-wrap p {
+    text-align: center;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: inherit;
+}
+
+@media screen and (min-width: 768px){
+    .personal-flex {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .personal-flex-item:last-child {
+        display: flex;
+        align-items: center;
+    }
+}

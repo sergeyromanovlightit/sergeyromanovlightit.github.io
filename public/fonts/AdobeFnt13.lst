@@ -1,0 +1,117 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Bold
+FamilyName:Lato
+StyleName:Bold
+FullName:Lato Bold
+MenuName:Lato
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\Lato-Bold.ttf
+DataFormat:sfntData
+FileLength:121788
+FileModTime:1497913745
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Bold
+FamilyName:Montserrat
+StyleName:Bold
+FullName:Montserrat-Bold
+MenuName:Montserrat
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\Montserrat-Bold.ttf
+DataFormat:sfntData
+FileLength:29560
+FileModTime:1479764096
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans
+FamilyName:Open Sans
+StyleName:Regular
+FullName:Open Sans
+MenuName:Open Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\OpenSans-Regular.ttf
+DataFormat:sfntData
+FileLength:217360
+FileModTime:1446094879
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Bold
+FamilyName:Raleway
+StyleName:Bold
+FullName:Raleway Bold
+MenuName:Raleway
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\Raleway-Bold.ttf
+DataFormat:sfntData
+FileLength:179244
+FileModTime:1473455514
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBold
+FamilyName:Raleway
+StyleName:ExtraBold
+FullName:Raleway ExtraBold
+MenuName:Raleway ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\Raleway-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:178128
+FileModTime:1473455514
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Regular
+FamilyName:Raleway
+StyleName:Regular
+FullName:Raleway
+MenuName:Raleway
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\chanties\Documents\Freelance\Kudzoo\mockupv1 Folder\Document fonts\Raleway-Regular.ttf
+DataFormat:sfntData
+FileLength:178520
+FileModTime:1473455514
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
